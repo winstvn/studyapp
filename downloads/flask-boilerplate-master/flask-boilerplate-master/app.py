@@ -46,9 +46,9 @@ def home():
     return render_template('pages/placeholder.home.html')
 
 
-@app.route('/about')
+@app.route('/profile')
 def about():
-    return render_template('pages/placeholder.about.html')
+    return render_template('pages/placeholder.profile.html')
 
 
 @app.route('/login')
